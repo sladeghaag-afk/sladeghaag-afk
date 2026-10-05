@@ -1,0 +1,405 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="260"
+  viewBox="0 0 1200 260"
+  role="img"
+  aria-label="Animação de Pac-Man em um labirinto neon"
+>
+  <defs>
+
+    <!-- Fundo -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050014"/>
+      <stop offset="50%" stop-color="#0d0221"/>
+      <stop offset="100%" stop-color="#02000a"/>
+    </linearGradient>
+
+    <!-- Neon azul -->
+    <filter id="cyanGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Neon rosa -->
+    <filter id="pinkGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Glow amarelo -->
+    <filter id="yellowGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Scanlines -->
+    <pattern id="scanlines" width="4" height="8" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#ffffff" opacity="0.018"/>
+    </pattern>
+
+  </defs>
+
+  <!-- ====================================================== -->
+  <!-- BACKGROUND -->
+  <!-- ====================================================== -->
+
+  <rect width="1200" height="260" rx="14" fill="url(#bg)"/>
+
+  <!-- Grid -->
+  <g opacity="0.08" stroke="#00f0ff" stroke-width="1">
+    <path d="M0 40 H1200"/>
+    <path d="M0 80 H1200"/>
+    <path d="M0 120 H1200"/>
+    <path d="M0 160 H1200"/>
+    <path d="M0 200 H1200"/>
+    <path d="M0 240 H1200"/>
+
+    <path d="M40 0 V260"/>
+    <path d="M80 0 V260"/>
+    <path d="M120 0 V260"/>
+    <path d="M160 0 V260"/>
+    <path d="M200 0 V260"/>
+    <path d="M240 0 V260"/>
+    <path d="M280 0 V260"/>
+    <path d="M320 0 V260"/>
+    <path d="M360 0 V260"/>
+    <path d="M400 0 V260"/>
+    <path d="M440 0 V260"/>
+    <path d="M480 0 V260"/>
+    <path d="M520 0 V260"/>
+    <path d="M560 0 V260"/>
+    <path d="M600 0 V260"/>
+    <path d="M640 0 V260"/>
+    <path d="M680 0 V260"/>
+    <path d="M720 0 V260"/>
+    <path d="M760 0 V260"/>
+    <path d="M800 0 V260"/>
+    <path d="M840 0 V260"/>
+    <path d="M880 0 V260"/>
+    <path d="M920 0 V260"/>
+    <path d="M960 0 V260"/>
+    <path d="M1000 0 V260"/>
+    <path d="M1040 0 V260"/>
+    <path d="M1080 0 V260"/>
+    <path d="M1120 0 V260"/>
+    <path d="M1160 0 V260"/>
+  </g>
+
+  <!-- Scanlines -->
+  <rect width="1200" height="260" fill="url(#scanlines)"/>
+
+  <!-- ====================================================== -->
+  <!-- HEADER -->
+  <!-- ====================================================== -->
+
+  <text
+    x="600"
+    y="25"
+    text-anchor="middle"
+    fill="#00f0ff"
+    font-family="monospace"
+    font-size="12"
+    font-weight="bold"
+    letter-spacing="4"
+    opacity="0.8"
+  >
+    SYSTEM.EXE // OBJECTIVE MODE
+  </text>
+
+  <!-- ====================================================== -->
+  <!-- LABYRINTH -->
+  <!-- ====================================================== -->
+
+  <g
+    fill="none"
+    stroke="#00f0ff"
+    stroke-width="5"
+    stroke-linejoin="round"
+    filter="url(#cyanGlow)"
+  >
+
+    <!-- Border -->
+    <rect x="45" y="45" width="1110" height="175" rx="8"/>
+
+    <!-- Upper structures -->
+    <path d="M70 70 H260 V105 H360 V70 H500"/>
+    <path d="M1130 70 H940 V105 H840 V70 H700"/>
+
+    <!-- Middle -->
+    <path d="M70 130 H180 V165 H300 V130 H420"/>
+    <path d="M1130 130 H1020 V165 H900 V130 H780"/>
+
+    <!-- Bottom -->
+    <path d="M70 195 H260 V165 H360 V195 H500"/>
+    <path d="M1130 195 H940 V165 H840 V195 H700"/>
+
+    <!-- Center -->
+    <path d="M500 70 V105 H700 V70"/>
+    <path d="M500 195 V160 H700 V195"/>
+
+  </g>
+
+  <!-- Pink secondary neon -->
+  <g
+    fill="none"
+    stroke="#ff00c8"
+    stroke-width="2"
+    opacity="0.65"
+  >
+    <path d="M45 45 H1155 V220 H45 Z"/>
+    <path d="M510 110 H690"/>
+    <path d="M510 150 H690"/>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- PELLETS -->
+  <!-- ====================================================== -->
+
+  <g fill="#ffffff" filter="url(#cyanGlow)">
+
+    <circle cx="100" cy="95" r="3"/>
+    <circle cx="140" cy="95" r="3"/>
+    <circle cx="180" cy="95" r="3"/>
+    <circle cx="220" cy="95" r="3"/>
+
+    <circle cx="280" cy="125" r="3"/>
+    <circle cx="320" cy="125" r="3"/>
+    <circle cx="360" cy="125" r="3"/>
+    <circle cx="400" cy="125" r="3"/>
+
+    <circle cx="450" cy="95" r="3"/>
+    <circle cx="750" cy="95" r="3"/>
+    <circle cx="800" cy="125" r="3"/>
+    <circle cx="840" cy="125" r="3"/>
+
+    <circle cx="880" cy="125" r="3"/>
+    <circle cx="920" cy="125" r="3"/>
+    <circle cx="980" cy="95" r="3"/>
+    <circle cx="1020" cy="95" r="3"/>
+    <circle cx="1060" cy="95" r="3"/>
+
+    <circle cx="180" cy="180" r="3"/>
+    <circle cx="220" cy="180" r="3"/>
+    <circle cx="280" cy="180" r="3"/>
+    <circle cx="320" cy="180" r="3"/>
+
+    <circle cx="880" cy="180" r="3"/>
+    <circle cx="920" cy="180" r="3"/>
+    <circle cx="980" cy="180" r="3"/>
+    <circle cx="1020" cy="180" r="3"/>
+
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- PAC-MAN -->
+  <!-- ====================================================== -->
+
+  <g filter="url(#yellowGlow)">
+
+    <g>
+
+      <!-- Pac-Man -->
+      <path
+        d="M0 0 L22 -15 A27 27 0 1 0 22 15 Z"
+        fill="#ffe600"
+      />
+
+      <!-- Eye -->
+      <circle
+        cx="8"
+        cy="-10"
+        r="3"
+        fill="#111111"
+      />
+
+      <!-- Movement -->
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="
+          100 95;
+          220 95;
+          220 95;
+          400 125;
+          450 95;
+          500 95;
+          500 125;
+          700 125;
+          750 95;
+          900 125;
+          1020 95;
+          1080 95;
+          1020 95;
+          900 125;
+          750 95;
+          700 125;
+          500 125;
+          450 95;
+          400 125;
+          220 95;
+          100 95
+        "
+        dur="14s"
+        repeatCount="indefinite"
+      />
+
+      <!-- Mouth animation -->
+      <animate
+        attributeName="d"
+        values="
+          M0 0 L22 -15 A27 27 0 1 0 22 15 Z;
+          M0 0 L27 -3 A27 27 0 1 0 27 3 Z;
+          M0 0 L22 -15 A27 27 0 1 0 22 15 Z
+        "
+        dur="0.28s"
+        repeatCount="indefinite"
+      />
+
+    </g>
+
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- GHOSTS -->
+  <!-- ====================================================== -->
+
+  <!-- Ghost 1 -->
+  <g filter="url(#pinkGlow)">
+
+    <g>
+      <path
+        d="
+          M-20 20
+          V-5
+          A20 20 0 0 1 20 -5
+          V20
+          L13 13
+          L6 20
+          L0 13
+          L-7 20
+          L-14 13
+          Z
+        "
+        fill="#ff00c8"
+      />
+
+      <circle cx="-7" cy="2" r="4" fill="#ffffff"/>
+      <circle cx="7" cy="2" r="4" fill="#ffffff"/>
+      <circle cx="-7" cy="2" r="2" fill="#0d0221"/>
+      <circle cx="7" cy="2" r="2" fill="#0d0221"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="
+          650 105;
+          650 105;
+          550 145;
+          650 185;
+          780 145;
+          650 105
+        "
+        dur="7s"
+        repeatCount="indefinite"
+      />
+    </g>
+
+  </g>
+
+  <!-- Ghost 2 -->
+  <g filter="url(#cyanGlow)">
+
+    <g>
+      <path
+        d="
+          M-18 18
+          V-4
+          A18 18 0 0 1 18 -4
+          V18
+          L12 12
+          L6 18
+          L0 12
+          L-6 18
+          L-12 12
+          Z
+        "
+        fill="#00f0ff"
+      />
+
+      <circle cx="-6" cy="1" r="3.5" fill="#ffffff"/>
+      <circle cx="6" cy="1" r="3.5" fill="#ffffff"/>
+      <circle cx="-6" cy="1" r="1.8" fill="#0d0221"/>
+      <circle cx="6" cy="1" r="1.8" fill="#0d0221"/>
+
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        values="
+          850 185;
+          950 145;
+          850 105;
+          750 145;
+          850 185
+        "
+        dur="8s"
+        repeatCount="indefinite"
+      />
+    </g>
+
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- SCORE -->
+  <!-- ====================================================== -->
+
+  <g
+    font-family="monospace"
+    font-size="10"
+    fill="#ffffff"
+    opacity="0.65"
+  >
+    <text x="62" y="62">PLAYER 01</text>
+    <text x="1080" y="62" text-anchor="end">SCORE: 1337</text>
+  </g>
+
+  <!-- ====================================================== -->
+  <!-- STATUS -->
+  <!-- ====================================================== -->
+
+  <text
+    x="600"
+    y="247"
+    text-anchor="middle"
+    fill="#00f0ff"
+    font-family="monospace"
+    font-size="10"
+    letter-spacing="2"
+    opacity="0.75"
+  >
+    &gt; BUILDING THE FUTURE // ONE COMMIT AT A TIME_
+  </text>
+
+  <!-- Border -->
+  <rect
+    x="1"
+    y="1"
+    width="1198"
+    height="258"
+    rx="14"
+    fill="none"
+    stroke="#7b2ff7"
+    stroke-width="2"
+    opacity="0.6"
+  />
+
+</svg>
