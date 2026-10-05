@@ -1,6 +1,13 @@
-# 👷‍♂️💻 Gabriel Haag
 
-**`Engenheiro Civil → Desenvolvedor Full Stack C# / .NET`**
+  <!-- scanline -->
+  <rect class="scan" x="0" y="0" width="1200" height="14" fill="#00f0ff" opacity="0.07"/>
+</svg>
+<img width="1200" height="300" alt="banner" src="https://github.com/user-attachments/assets/622adb89-a7d9-4e36-9bc0-34daface9131" />
+
+
+<p align="center">
+  <img alt="Digitando" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&width=700&lines=Engenheiro+Civil+%E2%86%92+Desenvolvedor+C%23+%2F+.NET;Construindo+APIs+e+sistemas+de+gest%C3%A3o;Da+obra+ao+c%C3%B3digo+%F0%9F%9A%80" />
+</p>
 
 Sou **Engenheiro Civil** com pós-graduação em **Engenharia de Segurança do Trabalho (UFF)** e mais de cinco anos de experiência em obras: gestão de projetos, fiscalização, vistorias técnicas e conformidade de segurança (NR-18, NR-35, PGR, PCMSO).
 
@@ -18,13 +25,13 @@ Hoje estou migrando para a **tecnologia**. Estudo **C# e .NET** em um curso Full
     </a>
 </p>
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ### 🎯 Objetivo
 
 Atuar como **Desenvolvedor .NET / Full Stack**, construindo APIs, sistemas de gestão e automações, unindo a visão de quem já gerenciou obras com a lógica de quem constrói software.
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ### 🤖 Linguagens e Tecnologias (em estudo e prática)
 
@@ -37,7 +44,10 @@ Atuar como **Desenvolvedor .NET / Full Stack**, construindo APIs, sistemas de ge
 <img align="left" alt="RabbitMQ" title="RabbitMQ" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg" />
 <img align="left" alt="Docker" title="Docker" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
 <img align="left" alt="Git" title="Git" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-<img align="left" alt="GitHub" title="GitHub" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/github/white">
+  <img align="left" alt="GitHub" title="GitHub" width="30px" style="padding-right: 10px;" src="https://cdn.simpleicons.org/github/black">
+</picture>
 <img align="left" alt="Visual Studio" title="Visual Studio" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-plain.svg" />
 <img align="left" alt="VS Code" title="VS Code" width="30px" style="padding-right: 10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
 
@@ -46,7 +56,7 @@ Atuar como **Desenvolvedor .NET / Full Stack**, construindo APIs, sistemas de ge
 
 **No curso (.NET 10 + Visual Studio 2026):** ASP.NET API REST e microsserviços · Blazor · Angular 21 + Bootstrap · Entity Framework e Dapper · RabbitMQ · Docker · SQL Server e MongoDB · DDD e TDD · Integração com OpenAI e Gemini · GitHub e Copilot
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ### 🚀 Projetos
 
@@ -60,7 +70,7 @@ Atuar como **Desenvolvedor .NET / Full Stack**, construindo APIs, sistemas de ge
 | 🧮 **Calculadora** | Calculadora básica para praticar lógica e POO | C# |
 | 💬 **Controle de estoque via WhatsApp** | MVP de Micro-SaaS para pequenos negócios | Em desenvolvimento |
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ### 🏗️ Da obra ao código
 
@@ -72,7 +82,7 @@ Atuar como **Desenvolvedor .NET / Full Stack**, construindo APIs, sistemas de ge
 | Fiscalização e vistorias técnicas | Revisão de código e testes |
 | BIM / Revit | Modelagem de dados e de domínio |
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ### 🧰 Formação
 
@@ -80,18 +90,18 @@ Atuar como **Desenvolvedor .NET / Full Stack**, construindo APIs, sistemas de ge
 - 🎓 Bacharelado em **Engenharia Civil**: Estácio (2016–2021)
 - 💻 Treinamento **C#.NET WebDeveloper**: COTI Informática (em andamento)
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ### 📊 Estatísticas
 
 <p>
-  <img align="left" alt="GitHub Stats" height="200" style="padding-right: 10px;" src="https://github-readme-stats.vercel.app/api?username=sladeghaag-afk&show_icons=true&theme=tokyonight&include_all_commits=true&locale=pt-br" />
-  <img align="left" alt="Linguagens" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sladeghaag-afk&theme=tokyonight&layout=compact&custom_title=Tecnologias&langs_count=9" />
+  <img align="left" alt="GitHub Stats" height="200" style="padding-right: 10px;" src="https://github-readme-stats.vercel.app/api?username=sladeghaag-afk&show_icons=true&include_all_commits=true&locale=pt-br&bg_color=0d0221&title_color=00f0ff&text_color=ffffff&icon_color=ff00c8&border_color=7b2ff7" />
+  <img align="left" alt="Linguagens" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sladeghaag-afk&layout=compact&custom_title=Tecnologias&langs_count=9&bg_color=0d0221&title_color=00f0ff&text_color=ffffff&border_color=7b2ff7" />
 </p>
 
 <br clear="both"/>
 
----
+<img src="assets/divider.svg" alt="" width="100%" />
 
 ### 📫 Vamos conversar?
 
@@ -99,3 +109,4 @@ Estou aberto a oportunidades como **Desenvolvedor .NET / Full Stack** e a projet
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-haag1/)
 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00f0ff,50:7b2ff7,100:0d0221&height=120&section=footer" width="100%" alt="" />
