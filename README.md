@@ -27,6 +27,17 @@ Hoje estou migrando para a **tecnologia**. Estudo **C# e .NET** em um curso Full
 
 <img src="assets/divider.svg" alt="" width="100%" />
 
+<img src="assets/divider.svg" alt="" width="100%" />
+
+<p align="center">
+  <img
+    src="assets/pacman.svg"
+    alt="Pac-Man neon percorrendo um labirinto"
+    width="100%"
+  />
+</p>
+
+
 ### 🎯 Objetivo
 
 Atuar como **Desenvolvedor .NET / Full Stack**, construindo APIs, sistemas de gestão e automações, unindo a visão de quem já gerenciou obras com a lógica de quem constrói software.
