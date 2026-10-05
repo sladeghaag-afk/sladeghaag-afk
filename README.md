@@ -87,7 +87,7 @@ Atuar como **Desenvolvedor .NET / Full Stack**, construindo APIs, sistemas de ge
 
 - 🎓 Pós-graduação em **Engenharia de Segurança do Trabalho**: UFF (2023–2025)
 - 🎓 Bacharelado em **Engenharia Civil**: Estácio (2016–2021)
-- 💻 Treinamento **C#.NET WebDeveloper**: COTI Informática (em andamento)
+- 💻 Fullstack em **C#.NET WebDeveloper**: COTI Informática (em andamento)
 
 <img src="assets/divider.svg" alt="" width="100%" />
 
