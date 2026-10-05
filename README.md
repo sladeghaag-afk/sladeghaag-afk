@@ -54,7 +54,6 @@ Atuar como **Desenvolvedor .NET / Full Stack**, construindo APIs, sistemas de ge
 <br/>
 <br/>
 
-**No curso (.NET 10 + Visual Studio 2026):** ASP.NET API REST e microsserviços · Blazor · Angular 21 + Bootstrap · Entity Framework e Dapper · RabbitMQ · Docker · SQL Server e MongoDB · DDD e TDD · Integração com OpenAI e Gemini · GitHub e Copilot
 
 <img src="assets/divider.svg" alt="" width="100%" />
 
